@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# CUDA
+*.ptx
+*.cubin
+*.fatbin
+
+# Build artifacts
+*.o
+*.obj
+*.pdb
+*.exp
+*.lib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pth
+*.ckpt
+logs/
+results/
+
+# Build directories
+build/
+*.so
+*.pyd
+*.dll
+
+# Compiled extensions
+cuda_ops*.so
+cuda_ops*.pyd
+
+# Benchmark results (optional - uncomment if you don't want to commit results)
+# benchmark_results.json
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+# Keep summary_table.txt but ignore other generated files
+
+# Python cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+venv/
+env/
+ENV/
+
