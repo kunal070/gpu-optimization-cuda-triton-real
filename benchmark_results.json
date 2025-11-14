@@ -5,11 +5,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.048592000044882296,
+    "time_ms": 0.04805951986461878,
     "memory_mb": 1.5322265625,
-    "inference_speed": 20579.519243421633,
+    "inference_speed": 20807.53205227495,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 30.793443386963407
+    "throughput_gbps": 31.13462237359943
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.03661344003863633,
+    "memory_mb": 1.5009765625,
+    "inference_speed": 27312.374880501535,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 40.03440875180326
   },
   {
     "operation": "GELU",
@@ -17,11 +29,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.026916159987449645,
+    "time_ms": 0.01763135991524905,
     "memory_mb": 1.5,
-    "inference_speed": 37152.402143035106,
+    "inference_speed": 56717.1224912219,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 54.422464076711584
+    "throughput_gbps": 83.08172239925082
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.034692159830592574,
+    "memory_mb": 1.5,
+    "inference_speed": 28824.95655742282,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 42.22405745716234
   },
   {
     "operation": "Swish",
@@ -29,11 +53,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.0406457600928843,
+    "time_ms": 0.0336086402554065,
     "memory_mb": 2.0,
-    "inference_speed": 24602.812143622978,
+    "inference_speed": 29754.253441989036,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 48.05236746801363
+    "throughput_gbps": 58.11377625388483
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.03700288001447916,
+    "memory_mb": 1.5,
+    "inference_speed": 27024.92345484194,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 39.58729021705362
   },
   {
     "operation": "Loss",
@@ -41,11 +77,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.06676191966980696,
+    "time_ms": 0.0381500799022615,
     "memory_mb": 2.5009765625,
-    "inference_speed": 14978.598652432838,
+    "inference_speed": 26212.26489071445,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 36.58312907112169
+    "throughput_gbps": 64.01978529464694
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.07966368010267616,
+    "memory_mb": 1.501953125,
+    "inference_speed": 12552.771836690566,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 18.411791882352915
   },
   {
     "operation": "LayerNorm",
@@ -53,11 +101,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.05109248004853725,
+    "time_ms": 0.03870816074311733,
     "memory_mb": 3.0322265625,
-    "inference_speed": 19572.351920478548,
+    "inference_speed": 25834.345543731608,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 57.95684119518842
+    "throughput_gbps": 76.49959842041649
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.04769728010520339,
+    "memory_mb": 3.0009765625,
+    "inference_speed": 20965.556060940005,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 61.44252183462966
   },
   {
     "operation": "GELU",
@@ -65,11 +125,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.03443776005879044,
+    "time_ms": 0.0290380798606202,
     "memory_mb": 3.0,
-    "inference_speed": 29037.89323965465,
+    "inference_speed": 34437.53873533985,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 85.07195285055073
+    "throughput_gbps": 100.89122676369095
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.055548479883000254,
+    "memory_mb": 3.0,
+    "inference_speed": 18002.292809925017,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 52.74109221657721
   },
   {
     "operation": "Swish",
@@ -77,11 +149,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.03865600010380149,
+    "time_ms": 0.03159552002325654,
     "memory_mb": 4.0,
-    "inference_speed": 25869.20522854765,
+    "inference_speed": 31650.056693604954,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 101.05158292401426
+    "throughput_gbps": 123.63303395939437
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.05039967996068299,
+    "memory_mb": 3.0,
+    "inference_speed": 19841.39583386451,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 58.129089357024924
   },
   {
     "operation": "Loss",
@@ -89,11 +173,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.07550656009465456,
+    "time_ms": 0.04739648001268506,
     "memory_mb": 5.0009765625,
-    "inference_speed": 13243.882369245879,
+    "inference_speed": 21098.61322470282,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 64.68002473154844
+    "throughput_gbps": 103.04069359178844
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.06223328035324812,
+    "memory_mb": 3.001953125,
+    "inference_speed": 16068.572865254842,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 47.10654543666209
   },
   {
     "operation": "LayerNorm",
@@ -101,11 +197,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.051435519978404044,
+    "time_ms": 0.03755264077335596,
     "memory_mb": 6.0322265625,
-    "inference_speed": 19441.81764702417,
+    "inference_speed": 26629.28570151348,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 114.52875862662154
+    "throughput_gbps": 156.8690278799522
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.049954880457371474,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 20018.064117946204,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 117.3124351547045
   },
   {
     "operation": "GELU",
@@ -113,11 +221,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.02870335985440761,
+    "time_ms": 0.02156448015011847,
     "memory_mb": 6.0,
-    "inference_speed": 34839.1270245822,
+    "inference_speed": 46372.55306126664,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 204.13550990966135
+    "throughput_gbps": 271.71417809335924
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.04180351987481117,
+    "memory_mb": 6.0,
+    "inference_speed": 23921.430611457978,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 140.16463248901158
   },
   {
     "operation": "Swish",
@@ -125,11 +245,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.03734272011555731,
+    "time_ms": 0.032611519871279596,
     "memory_mb": 8.0,
-    "inference_speed": 26778.981201837814,
+    "inference_speed": 30664.010875515276,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 209.21079063935792
+    "throughput_gbps": 239.5625849649631
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.03911391999572515,
+    "memory_mb": 6.0,
+    "inference_speed": 25566.345692512852,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 149.80280679206749
   },
   {
     "operation": "Loss",
@@ -137,11 +269,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.06686656001955271,
+    "time_ms": 0.04952160015702248,
     "memory_mb": 10.0009765625,
-    "inference_speed": 14955.158448521745,
+    "inference_speed": 20193.20855604852,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 146.0607315743553
+    "throughput_gbps": 197.21856004952707
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.06637504018843174,
+    "memory_mb": 6.001953125,
+    "inference_speed": 15065.904248963247,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 88.30551864064037
   },
   {
     "operation": "LayerNorm",
@@ -149,11 +293,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.05412160031497479,
+    "time_ms": 0.04155167933553457,
     "memory_mb": 12.033203125,
-    "inference_speed": 18476.911144168665,
+    "inference_speed": 24066.415990672373,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 217.12541496128682
+    "throughput_gbps": 282.8086641665125
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.0488422405347228,
+    "memory_mb": 12.001953125,
+    "inference_speed": 20474.081226660404,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 239.9696905857624
   },
   {
     "operation": "GELU",
@@ -161,11 +317,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.025817279983311892,
+    "time_ms": 0.020720640132203698,
     "memory_mb": 12.0,
-    "inference_speed": 38733.747344661904,
+    "inference_speed": 48261.05726559169,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 453.9111016952567
+    "throughput_gbps": 565.5592648311526
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.03782048000022769,
+    "memory_mb": 12.0,
+    "inference_speed": 26440.700911093136,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 309.85196380187267
   },
   {
     "operation": "Swish",
@@ -173,11 +341,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.04236095994710922,
+    "time_ms": 0.022815359570086003,
     "memory_mb": 16.0,
-    "inference_speed": 23606.641616445275,
+    "inference_speed": 43830.1222879316,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 368.8537752569574
+    "throughput_gbps": 684.8456607489312
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.03275359991006553,
+    "memory_mb": 12.0,
+    "inference_speed": 30530.995150022864,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 357.78509941433043
   },
   {
     "operation": "Loss",
@@ -185,11 +365,23 @@
     "batch_size": 16,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.07286399971693754,
+    "time_ms": 0.053466880340129135,
     "memory_mb": 20.0009765625,
-    "inference_speed": 13724.198560123044,
+    "inference_speed": 18703.16715017798,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 268.06384154308324
+    "throughput_gbps": 365.3140701320602
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.06007424015551806,
+    "memory_mb": 12.001953125,
+    "inference_speed": 16646.069886381178,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 195.1028813396689
   },
   {
     "operation": "LayerNorm",
@@ -197,11 +389,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.08582911983132363,
+    "time_ms": 0.06842207983136177,
     "memory_mb": 3.0634765625,
-    "inference_speed": 11651.057379654574,
+    "inference_speed": 14615.165199080117,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 34.85619258878364
+    "throughput_gbps": 43.72384379340584
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04643168020993471,
+    "memory_mb": 3.0009765625,
+    "inference_speed": 21537.01945479104,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 63.1172759862641
   },
   {
     "operation": "GELU",
@@ -209,11 +413,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.03406720010563731,
+    "time_ms": 0.03321472007315606,
     "memory_mb": 3.0,
-    "inference_speed": 29353.747795508556,
+    "inference_speed": 30107.133156548683,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 85.99730799465397
+    "throughput_gbps": 88.20449166957623
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04992192008532584,
+    "memory_mb": 3.0,
+    "inference_speed": 20031.280813935326,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 58.685393009576146
   },
   {
     "operation": "Swish",
@@ -221,11 +437,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.04041759992018342,
+    "time_ms": 0.032943679988384246,
     "memory_mb": 4.0,
-    "inference_speed": 24741.696735451824,
+    "inference_speed": 30354.83590031819,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 96.64725287285869
+    "throughput_gbps": 118.57357773561793
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04882016012445092,
+    "memory_mb": 3.0,
+    "inference_speed": 20483.341255965348,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 60.009788835835984
   },
   {
     "operation": "Loss",
@@ -233,11 +461,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.07929888002574444,
+    "time_ms": 0.05099103981629014,
     "memory_mb": 5.0009765625,
-    "inference_speed": 12610.518580783855,
+    "inference_speed": 19611.28864213766,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 61.58682408542072
+    "throughput_gbps": 95.77694810522742
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.07011744059622288,
+    "memory_mb": 3.001953125,
+    "inference_speed": 14261.786960516474,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 41.80978118574871
   },
   {
     "operation": "LayerNorm",
@@ -245,11 +485,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.083925119638443,
+    "time_ms": 0.073507199883461,
     "memory_mb": 6.0634765625,
-    "inference_speed": 11915.383669491213,
+    "inference_speed": 13604.109550974727,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 70.55532188784689
+    "throughput_gbps": 80.55488224220474
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.06175072006881237,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 16194.14314336161,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 94.90300141902647
   },
   {
     "operation": "GELU",
@@ -257,11 +509,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.02932928014546633,
+    "time_ms": 0.02558911994099617,
     "memory_mb": 6.0,
-    "inference_speed": 34095.62031663359,
+    "inference_speed": 39079.10871127327,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 199.77902529277495
+    "throughput_gbps": 228.97915260511684
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.04236799972131848,
+    "memory_mb": 6.0,
+    "inference_speed": 23602.719188482857,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 138.29718274501673
   },
   {
     "operation": "Swish",
@@ -269,11 +533,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.036446720007807014,
+    "time_ms": 0.02264863995835185,
     "memory_mb": 8.0,
-    "inference_speed": 27437.311225421563,
+    "inference_speed": 44152.761571506315,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 214.35399394860596
+    "throughput_gbps": 344.9434497773931
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.030591680258512496,
+    "memory_mb": 6.0,
+    "inference_speed": 32688.626173834902,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 191.53491898731386
   },
   {
     "operation": "Loss",
@@ -281,11 +557,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.07569632057100534,
+    "time_ms": 0.052057280093431475,
     "memory_mb": 10.0009765625,
-    "inference_speed": 13210.681740626627,
+    "inference_speed": 19209.60907302913,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 129.02316256118516
+    "throughput_gbps": 187.61215831460126
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.07307232020422816,
+    "memory_mb": 6.001953125,
+    "inference_speed": 13685.072503584433,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 80.2120739050197
   },
   {
     "operation": "LayerNorm",
@@ -293,11 +581,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.08031615979969502,
+    "time_ms": 0.06740735977888107,
     "memory_mb": 12.0634765625,
-    "inference_speed": 12450.794491344659,
+    "inference_speed": 14835.175317359084,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 146.67955813558632
+    "throughput_gbps": 174.76932591947246
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.06473631899803876,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 15447.279293564648,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 181.03753589498137
   },
   {
     "operation": "GELU",
@@ -305,11 +605,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.027834560070186854,
+    "time_ms": 0.022471680082380773,
     "memory_mb": 12.0,
-    "inference_speed": 35926.56027177824,
+    "inference_speed": 44500.45552152835,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 421.01437818490126
+    "throughput_gbps": 521.4897131429103
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.03846496015787124,
+    "memory_mb": 12.0,
+    "inference_speed": 25997.687139040645,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 304.66039616063256
   },
   {
     "operation": "Swish",
@@ -317,11 +629,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.03771552005782723,
+    "time_ms": 0.028544639945030214,
     "memory_mb": 16.0,
-    "inference_speed": 26514.28373430228,
+    "inference_speed": 35032.84686462145,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 414.2856833484731
+    "throughput_gbps": 547.3882322597102
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.03630784026347101,
+    "memory_mb": 12.0,
+    "inference_speed": 27542.260645177812,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 322.7608669356775
   },
   {
     "operation": "Loss",
@@ -329,11 +653,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.08395071998238564,
+    "time_ms": 0.049318719934672114,
     "memory_mb": 20.0009765625,
-    "inference_speed": 11911.75013400502,
+    "inference_speed": 20276.27645901204,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 232.6627297349518
+    "throughput_gbps": 396.0403615541702
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.0644700801372528,
+    "memory_mb": 12.001953125,
+    "inference_speed": 15511.071149144875,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 181.79995004939127
   },
   {
     "operation": "LayerNorm",
@@ -341,11 +677,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.09722527988255024,
+    "time_ms": 0.09338496126234531,
     "memory_mb": 24.064453125,
-    "inference_speed": 10285.390807905276,
+    "inference_speed": 10708.362315327318,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 241.71123532142815
+    "throughput_gbps": 251.65125291280344
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.0767641592770815,
+    "memory_mb": 24.001953125,
+    "inference_speed": 13026.912681873888,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 305.3431128455128
   },
   {
     "operation": "GELU",
@@ -353,11 +701,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.04170912023633719,
+    "time_ms": 0.02933408020064235,
     "memory_mb": 24.0,
-    "inference_speed": 23975.571633582316,
+    "inference_speed": 34090.04111122947,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 561.9274601620855
+    "throughput_gbps": 798.9853385444407
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.048034239802509544,
+    "memory_mb": 24.0,
+    "inference_speed": 20818.48290118573,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 487.9331929965406
   },
   {
     "operation": "Swish",
@@ -365,11 +725,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.04675135970115662,
+    "time_ms": 0.03776096038520336,
     "memory_mb": 32.0,
-    "inference_speed": 21389.752220944716,
+    "inference_speed": 26482.377296522634,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 668.4297569045224
+    "throughput_gbps": 827.5742905163322
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.0529683200456202,
+    "memory_mb": 24.0,
+    "inference_speed": 18879.209292247266,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 442.4814677870453
   },
   {
     "operation": "Loss",
@@ -377,11 +749,23 @@
     "batch_size": 16,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.08049439992755651,
+    "time_ms": 0.05940319981426,
     "memory_mb": 40.0009765625,
-    "inference_speed": 12423.224483939028,
+    "inference_speed": 16834.109999575234,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 485.29405411398557
+    "throughput_gbps": 657.5984761167538
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.07242944024503231,
+    "memory_mb": 24.001953125,
+    "inference_speed": 13806.54049813103,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 323.61712681108895
   },
   {
     "operation": "LayerNorm",
@@ -389,11 +773,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.14292544066905977,
+    "time_ms": 0.13116608023643495,
     "memory_mb": 6.1259765625,
-    "inference_speed": 6996.655006406275,
+    "inference_speed": 7623.922268603577,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 41.85678182142883
+    "throughput_gbps": 45.60934485526108
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.06874239936470986,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 14547.062791546492,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 85.25056920438118
   },
   {
     "operation": "GELU",
@@ -401,11 +797,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.03604319983627647,
+    "time_ms": 0.024909440036863087,
     "memory_mb": 6.0,
-    "inference_speed": 27744.484522529212,
+    "inference_speed": 40145.4227200658,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 162.56533899919464
+    "throughput_gbps": 235.22708625038555
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.04357343979179859,
+    "memory_mb": 6.0,
+    "inference_speed": 22949.760330563124,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 134.4712519368933
   },
   {
     "operation": "Swish",
@@ -413,11 +821,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.04224160023033619,
+    "time_ms": 0.03322496011853218,
     "memory_mb": 8.0,
-    "inference_speed": 23673.345577515334,
+    "inference_speed": 30097.854036014964,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 184.94801232433855
+    "throughput_gbps": 235.13948465636688
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.04145983978174627,
+    "memory_mb": 6.0,
+    "inference_speed": 24119.726589977683,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 141.3265229881505
   },
   {
     "operation": "Loss",
@@ -425,11 +845,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.06783840008080005,
+    "time_ms": 0.053534399680793286,
     "memory_mb": 10.0009765625,
-    "inference_speed": 14740.91368323742,
+    "inference_speed": 18679.578102353753,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 143.9682932186455
+    "throughput_gbps": 182.43556913967586
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.07025888096541166,
+    "memory_mb": 6.001953125,
+    "inference_speed": 14233.0761073792,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 83.42407775492912
   },
   {
     "operation": "LayerNorm",
@@ -437,11 +869,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.14124895960092546,
+    "time_ms": 0.13007360130548476,
     "memory_mb": 12.1259765625,
-    "inference_speed": 7079.698164328624,
+    "inference_speed": 7687.955049783291,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 83.83618555685857
+    "throughput_gbps": 91.0390261203376
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.09168128088116646,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 10907.351974021383,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 127.83093300700072
   },
   {
     "operation": "GELU",
@@ -449,11 +893,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.027208640202879907,
+    "time_ms": 0.02024096013046801,
     "memory_mb": 12.0,
-    "inference_speed": 36753.03111598185,
+    "inference_speed": 49404.77099674412,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 430.69958339041233
+    "throughput_gbps": 578.9621601180952
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.048210239773616194,
+    "memory_mb": 12.0,
+    "inference_speed": 20742.481362792674,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 243.07595347022666
   },
   {
     "operation": "Swish",
@@ -461,11 +917,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.035952639989554884,
+    "time_ms": 0.03939168022945523,
     "memory_mb": 16.0,
-    "inference_speed": 27814.369133685992,
+    "inference_speed": 25386.071225574364,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 434.59951771384357
+    "throughput_gbps": 396.65736289959943
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.041941439416259524,
+    "memory_mb": 12.0,
+    "inference_speed": 23842.767771397183,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 279.4074348210607
   },
   {
     "operation": "Loss",
@@ -473,11 +941,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.07663872063159943,
+    "time_ms": 0.0523055998980999,
     "memory_mb": 20.0009765625,
-    "inference_speed": 13048.234518514173,
+    "inference_speed": 19118.41183254122,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 254.8607742058647
+    "throughput_gbps": 373.4247138426559
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.06443648006767035,
+    "memory_mb": 12.001953125,
+    "inference_speed": 15519.15931704856,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 181.89474869396858
   },
   {
     "operation": "LayerNorm",
@@ -485,11 +965,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.1469257590174675,
+    "time_ms": 0.1375331186503172,
     "memory_mb": 24.1259765625,
-    "inference_speed": 6806.158475459116,
+    "inference_speed": 7270.975964287811,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 160.3566600191283
+    "throughput_gbps": 171.3080036141685
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.1095075187832117,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 9131.793059613248,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 214.0351085911892
   },
   {
     "operation": "GELU",
@@ -497,11 +989,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.03741984024643898,
+    "time_ms": 0.030806399993598462,
     "memory_mb": 24.0,
-    "inference_speed": 26723.791267258654,
+    "inference_speed": 32460.787375603737,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 626.3388578263747
+    "throughput_gbps": 760.7997041157126
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.05049087963998318,
+    "memory_mb": 24.0,
+    "inference_speed": 19805.55710517095,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 464.19274465244405
   },
   {
     "operation": "Swish",
@@ -509,11 +1013,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.04663423962891102,
+    "time_ms": 0.04205792039632797,
     "memory_mb": 32.0,
-    "inference_speed": 21443.471748600085,
+    "inference_speed": 23776.734336282327,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 670.1084921437526
+    "throughput_gbps": 743.0229480088227
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.05819903966039419,
+    "memory_mb": 24.0,
+    "inference_speed": 17182.414105718028,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 402.71283060276625
   },
   {
     "operation": "Loss",
@@ -521,11 +1037,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.0771136000007391,
+    "time_ms": 0.06266848042607308,
     "memory_mb": 40.0009765625,
-    "inference_speed": 12967.881151838528,
+    "inference_speed": 15956.984965985424,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 506.5702246288852
+    "throughput_gbps": 623.3349430005351
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.07295263983309269,
+    "memory_mb": 24.001953125,
+    "inference_speed": 13707.523158694268,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 321.2962190574529
   },
   {
     "operation": "LayerNorm",
@@ -533,11 +1061,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.1714751997590065,
+    "time_ms": 0.1629689611494541,
     "memory_mb": 48.126953125,
-    "inference_speed": 5831.747106318659,
+    "inference_speed": 6136.13778321216,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 274.08615197524654
+    "throughput_gbps": 288.3922025988213
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.17565920129418372,
+    "memory_mb": 48.001953125,
+    "inference_speed": 5692.84155132448,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 266.86280595188475
   },
   {
     "operation": "GELU",
@@ -545,11 +1085,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.1635452812537551,
+    "time_ms": 0.15262496016919613,
     "memory_mb": 48.0,
-    "inference_speed": 6114.514538933171,
+    "inference_speed": 6552.008261895207,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 286.61786901249235
+    "throughput_gbps": 307.12538727633785
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.17439231984317302,
+    "memory_mb": 48.0,
+    "inference_speed": 5734.197474402983,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 268.79050661263983
   },
   {
     "operation": "Swish",
@@ -557,11 +1109,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.3285030394792557,
+    "time_ms": 0.31833856135606764,
     "memory_mb": 64.0,
-    "inference_speed": 3044.11186449052,
+    "inference_speed": 3141.3096664763816,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 190.2569915306575
+    "throughput_gbps": 196.33185415477385
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.16871360052376985,
+    "memory_mb": 48.0,
+    "inference_speed": 5927.204427476558,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 277.8377075379637
   },
   {
     "operation": "Loss",
@@ -569,11 +1133,23 @@
     "batch_size": 16,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.2404211187362671,
+    "time_ms": 0.23137151941657066,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4159.368383511111,
+    "inference_speed": 4322.053131351744,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 324.9546216446053
+    "throughput_gbps": 337.6645227179205
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 16,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.24049152106046676,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4158.150755546056,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 194.92124770937997
   },
   {
     "operation": "LayerNorm",
@@ -581,11 +1157,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.07243040014058351,
+    "time_ms": 0.06362688090652227,
     "memory_mb": 3.0634765625,
-    "inference_speed": 13806.35752472793,
+    "inference_speed": 15716.627716973187,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 41.304153018065946
+    "throughput_gbps": 47.019063137192624
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.05150144036859274,
+    "memory_mb": 3.0009765625,
+    "inference_speed": 19416.932669126523,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 56.90406235907155
   },
   {
     "operation": "GELU",
@@ -593,11 +1181,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.03308544017374516,
+    "time_ms": 0.01677088008262217,
     "memory_mb": 3.0,
-    "inference_speed": 30224.77545254322,
+    "inference_speed": 59627.16297972881,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 88.54914683362273
+    "throughput_gbps": 174.68895404217423
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.0447971198707819,
+    "memory_mb": 3.0,
+    "inference_speed": 22322.863677051515,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 65.39901467886187
   },
   {
     "operation": "Swish",
@@ -605,11 +1205,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.036536960303783415,
+    "time_ms": 0.02703040009364486,
     "memory_mb": 4.0,
-    "inference_speed": 27369.545569351856,
+    "inference_speed": 36995.38284803675,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 106.91228738028069
+    "throughput_gbps": 144.51321425014356
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.039276479706168176,
+    "memory_mb": 3.0,
+    "inference_speed": 25460.530258340717,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 74.59139724123257
   },
   {
     "operation": "Loss",
@@ -617,11 +1229,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.07003712009638548,
+    "time_ms": 0.04774208005517721,
     "memory_mb": 5.0009765625,
-    "inference_speed": 14278.142770916256,
+    "inference_speed": 20945.88251798549,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 69.73111069666113
+    "throughput_gbps": 102.29479253254289
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.06694719973951578,
+    "memory_mb": 3.001953125,
+    "inference_speed": 14937.144554079789,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 43.789656028023984
   },
   {
     "operation": "LayerNorm",
@@ -629,11 +1253,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.07545280039310455,
+    "time_ms": 0.06321503967046738,
     "memory_mb": 6.0634765625,
-    "inference_speed": 13253.318561936207,
+    "inference_speed": 15819.020366243274,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 78.47772116762343
+    "throughput_gbps": 93.67017503166628
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.06262208040803671,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 15968.80834178839,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 93.58246542004552
   },
   {
     "operation": "GELU",
@@ -641,11 +1277,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.03299744004849345,
+    "time_ms": 0.027733440017327665,
     "memory_mb": 6.0,
-    "inference_speed": 30305.381221403466,
+    "inference_speed": 36057.55360226524,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 177.57059309416093
+    "throughput_gbps": 211.27472813827288
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.04383039988577366,
+    "memory_mb": 6.0,
+    "inference_speed": 22815.215070044957,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 133.68290080104467
   },
   {
     "operation": "Swish",
@@ -653,11 +1301,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.04803072014823556,
+    "time_ms": 0.0410249600186944,
     "memory_mb": 8.0,
-    "inference_speed": 20820.008463619415,
+    "inference_speed": 24375.404620609417,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 162.6563161220267
+    "throughput_gbps": 190.43284859851104
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.042783039920032025,
+    "memory_mb": 6.0,
+    "inference_speed": 23373.748145740727,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 136.95555554144957
   },
   {
     "operation": "Loss",
@@ -665,11 +1325,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.08502080004662275,
+    "time_ms": 0.06675423968583345,
     "memory_mb": 10.0009765625,
-    "inference_speed": 11761.827687479195,
+    "inference_speed": 14980.321919720995,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 114.87281546351856
+    "throughput_gbps": 146.30649259554167
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.062233279775828126,
+    "memory_mb": 6.001953125,
+    "inference_speed": 16068.573014344127,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 94.18244337669277
   },
   {
     "operation": "LayerNorm",
@@ -677,11 +1349,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.06903104044497013,
+    "time_ms": 0.06593504007905722,
     "memory_mb": 12.0634765625,
-    "inference_speed": 14486.236822653364,
+    "inference_speed": 15166.442589569722,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 170.6585726454134
+    "throughput_gbps": 178.67189913650014
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.06336671933531761,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 15781.154689550849,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 184.9504566000847
   },
   {
     "operation": "GELU",
@@ -689,11 +1373,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.02812575988471508,
+    "time_ms": 0.013760959943756462,
     "memory_mb": 12.0,
-    "inference_speed": 35554.59493712912,
+    "inference_speed": 72669.34894710698,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 416.6554094194818
+    "throughput_gbps": 851.59393297391
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.03533119985833764,
+    "memory_mb": 12.0,
+    "inference_speed": 28303.595802281106,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 331.6827633079817
   },
   {
     "operation": "Swish",
@@ -701,11 +1397,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.03774464013054967,
+    "time_ms": 0.033432640116661784,
     "memory_mb": 16.0,
-    "inference_speed": 26493.82790619382,
+    "inference_speed": 29910.889373694157,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 413.9660610342784
+    "throughput_gbps": 467.3576464639712
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.04146079977974296,
+    "memory_mb": 12.0,
+    "inference_speed": 24119.16811331225,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 282.64650132787796
   },
   {
     "operation": "Loss",
@@ -713,11 +1421,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.08992832031100989,
+    "time_ms": 0.04407936027273536,
     "memory_mb": 20.0009765625,
-    "inference_speed": 11119.967509029193,
+    "inference_speed": 22686.35465244116,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 217.19747023813906
+    "throughput_gbps": 443.1144996992564
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.06735680021345615,
+    "memory_mb": 12.001953125,
+    "inference_speed": 14846.310941597041,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 174.0085234377171
   },
   {
     "operation": "LayerNorm",
@@ -725,11 +1445,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.09526432029902936,
+    "time_ms": 0.08045888066291809,
     "memory_mb": 24.064453125,
-    "inference_speed": 10497.109482973858,
+    "inference_speed": 12428.708823199926,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 246.68671787208729
+    "throughput_gbps": 292.0801571095396
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.07536063961684704,
+    "memory_mb": 24.001953125,
+    "inference_speed": 13269.526440914758,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 311.0298355720548
   },
   {
     "operation": "GELU",
@@ -737,11 +1469,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.03784160021692515,
+    "time_ms": 0.036647999864071606,
     "memory_mb": 24.0,
-    "inference_speed": 26425.943783231898,
+    "inference_speed": 27286.618743424642,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 619.3580574194976
+    "throughput_gbps": 639.530126799015
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.05228383956477046,
+    "memory_mb": 24.0,
+    "inference_speed": 19126.368842157743,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 448.2742697380722
   },
   {
     "operation": "Swish",
@@ -749,11 +1493,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.04811232000589371,
+    "time_ms": 0.044929920099675655,
     "memory_mb": 32.0,
-    "inference_speed": 20784.6971394749,
+    "inference_speed": 22256.883559586364,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 649.5217856085907
+    "throughput_gbps": 695.5276112370739
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.05127487994730472,
+    "memory_mb": 24.0,
+    "inference_speed": 19502.727281423216,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 457.0951706583566
   },
   {
     "operation": "Loss",
@@ -761,11 +1517,23 @@
     "batch_size": 32,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.08304928045719862,
+    "time_ms": 0.057736000046133995,
     "memory_mb": 40.0009765625,
-    "inference_speed": 12041.043516510337,
+    "inference_speed": 17320.2161424579,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 470.36474559762945
+    "throughput_gbps": 676.5874609100514
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.07949248012155294,
+    "memory_mb": 24.001953125,
+    "inference_speed": 12579.80627187487,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 294.863203573361
   },
   {
     "operation": "LayerNorm",
@@ -773,11 +1541,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.13583199985325337,
+    "time_ms": 0.11927456140518189,
     "memory_mb": 6.1259765625,
-    "inference_speed": 7362.035463516358,
+    "inference_speed": 8384.017415104534,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 44.042633497846715
+    "throughput_gbps": 50.15653728957247
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.06224575992673635,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 16065.351297453935,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 94.14823887143558
   },
   {
     "operation": "GELU",
@@ -785,11 +1565,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.03182399991434068,
+    "time_ms": 0.01699840011075139,
     "memory_mb": 6.0,
-    "inference_speed": 31422.825625052097,
+    "inference_speed": 58829.06588176529,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 184.11811889678964
+    "throughput_gbps": 344.7015579009685
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04009760012850165,
+    "memory_mb": 6.0,
+    "inference_speed": 24939.148397791345,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 146.1278226433087
   },
   {
     "operation": "Swish",
@@ -797,11 +1589,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.04233888017013669,
+    "time_ms": 0.03618752003647387,
     "memory_mb": 8.0,
-    "inference_speed": 23618.95250846384,
+    "inference_speed": 27633.836167609355,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 184.52306647237376
+    "throughput_gbps": 215.8893450594481
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.040635839961469175,
+    "memory_mb": 6.0,
+    "inference_speed": 24608.81824882168,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 144.19229442668956
   },
   {
     "operation": "Loss",
@@ -809,11 +1613,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.07872768022119998,
+    "time_ms": 0.053586239945143464,
     "memory_mb": 10.0009765625,
-    "inference_speed": 12702.012776069547,
+    "inference_speed": 18661.507152278376,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 124.05520709965538
+    "throughput_gbps": 182.25907778404508
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.07429664146155118,
+    "memory_mb": 6.001953125,
+    "inference_speed": 13459.558606259532,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 78.89027327925785
   },
   {
     "operation": "LayerNorm",
@@ -821,11 +1637,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.13072703883051873,
+    "time_ms": 0.12040672220289707,
     "memory_mb": 12.1259765625,
-    "inference_speed": 7649.526899300852,
+    "inference_speed": 8305.184143414373,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 90.58396864759318
+    "throughput_gbps": 98.34811354520441
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.0925020807981491,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 10810.567625847496,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 126.69664912609089
   },
   {
     "operation": "GELU",
@@ -833,11 +1661,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.03152224002406001,
+    "time_ms": 0.017839039964601396,
     "memory_mb": 12.0,
-    "inference_speed": 31723.633829218008,
+    "inference_speed": 56056.82828136119,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 371.76133393614856
+    "throughput_gbps": 656.9159564222015
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.0426054397970438,
+    "memory_mb": 12.0,
+    "inference_speed": 23471.18125675082,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 275.0529053525487
   },
   {
     "operation": "Swish",
@@ -845,11 +1685,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.03720256004482508,
+    "time_ms": 0.03240831999108195,
     "memory_mb": 16.0,
-    "inference_speed": 26879.87060017127,
+    "inference_speed": 30856.273952959542,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 419.9979781276761
+    "throughput_gbps": 482.12928051499284
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.0470015999302268,
+    "memory_mb": 12.0,
+    "inference_speed": 21275.871491278715,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 249.32661903842245
   },
   {
     "operation": "Loss",
@@ -857,11 +1709,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.07155072070658207,
+    "time_ms": 0.05743456037715077,
     "memory_mb": 20.0009765625,
-    "inference_speed": 13976.099613319595,
+    "inference_speed": 17411.11960174123,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 272.9840242198931
+    "throughput_gbps": 340.0775342590925
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.06663680018857121,
+    "memory_mb": 12.001953125,
+    "inference_speed": 15006.722969442772,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 175.88865785069623
   },
   {
     "operation": "LayerNorm",
@@ -869,11 +1733,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.13780511990189553,
+    "time_ms": 0.12665984094142912,
     "memory_mb": 24.1259765625,
-    "inference_speed": 7256.624432473244,
+    "inference_speed": 7895.1622911197765,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 170.96987400460387
+    "throughput_gbps": 186.01416053973588
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.10090560130774975,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 9910.252622647995,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 232.28099699670773
   },
   {
     "operation": "GELU",
@@ -881,11 +1757,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.03743711974471808,
+    "time_ms": 0.029607360046356918,
     "memory_mb": 24.0,
-    "inference_speed": 26711.456618964065,
+    "inference_speed": 33775.385526918886,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 626.0497645069703
+    "throughput_gbps": 791.6105982871615
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.04608992012217641,
+    "memory_mb": 24.0,
+    "inference_speed": 21696.71801012397,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 508.51682836228053
   },
   {
     "operation": "Swish",
@@ -893,11 +1781,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.043599039874970914,
+    "time_ms": 0.039756160266697406,
     "memory_mb": 32.0,
-    "inference_speed": 22936.284901403855,
+    "inference_speed": 25153.33455976812,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 716.7589031688705
+    "throughput_gbps": 786.0417049927538
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.053211840186268095,
+    "memory_mb": 24.0,
+    "inference_speed": 18792.80995544411,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 440.4564833307213
   },
   {
     "operation": "Loss",
@@ -905,11 +1805,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.07392000038176776,
+    "time_ms": 0.06022560000419617,
     "memory_mb": 40.0009765625,
-    "inference_speed": 13528.138458271009,
+    "inference_speed": 16604.23474287223,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 528.4558099644076
+    "throughput_gbps": 648.6187546756644
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.07764000006020069,
+    "memory_mb": 24.001953125,
+    "inference_speed": 12879.958774144998,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 301.8986003407819
   },
   {
     "operation": "LayerNorm",
@@ -917,11 +1829,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.16760895997285843,
+    "time_ms": 0.14965439960360527,
     "memory_mb": 48.126953125,
-    "inference_speed": 5966.268152740366,
+    "inference_speed": 6682.062155531239,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 280.4085036309726
+    "throughput_gbps": 314.05008997811365
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.1764720004796982,
+    "memory_mb": 48.001953125,
+    "inference_speed": 5666.621318292602,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 265.63368251738984
   },
   {
     "operation": "GELU",
@@ -929,11 +1853,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.16762400098145008,
+    "time_ms": 0.16279776144772767,
     "memory_mb": 48.0,
-    "inference_speed": 5965.732795691137,
+    "inference_speed": 6142.590605099244,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 279.643724798022
+    "throughput_gbps": 287.93393461402707
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.17211263932287693,
+    "memory_mb": 48.0,
+    "inference_speed": 5810.148539550527,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 272.35071279143096
   },
   {
     "operation": "Swish",
@@ -941,11 +1877,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.33389279901981356,
+    "time_ms": 0.3227734407782555,
     "memory_mb": 64.0,
-    "inference_speed": 2994.9732457112946,
+    "inference_speed": 3098.148340795479,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 187.1858278569559
+    "throughput_gbps": 193.63427129971745
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.17282687969505786,
+    "memory_mb": 48.0,
+    "inference_speed": 5786.136981495222,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 271.2251710075886
   },
   {
     "operation": "Loss",
@@ -953,11 +1901,23 @@
     "batch_size": 32,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.2424035196006298,
+    "time_ms": 0.23488000124692918,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4125.352641939948,
+    "inference_speed": 4257.493165408751,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 322.2971093944191
+    "throughput_gbps": 332.6207138094428
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.24049184069037438,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4158.145229082713,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 194.9209886458699
   },
   {
     "operation": "LayerNorm",
@@ -965,11 +1925,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.2383020806312561,
+    "time_ms": 0.24029151991009712,
     "memory_mb": 12.2509765625,
-    "inference_speed": 4196.354464682077,
+    "inference_speed": 4161.611697217367,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 50.20453144019763
+    "throughput_gbps": 49.78887437972247
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.0969107211381197,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 10318.775758306181,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 120.93299416906802
   },
   {
     "operation": "GELU",
@@ -977,11 +1949,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.02767680011689663,
+    "time_ms": 0.030635520201176405,
     "memory_mb": 12.0,
-    "inference_speed": 36131.344511517505,
+    "inference_speed": 32641.84820212715,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 423.4141934943457
+    "throughput_gbps": 382.5216586186775
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.04255328012630343,
+    "memory_mb": 12.0,
+    "inference_speed": 23499.95105035089,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 275.3900513712995
   },
   {
     "operation": "Swish",
@@ -989,11 +1973,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.036587839927524325,
+    "time_ms": 0.029681919999420645,
     "memory_mb": 16.0,
-    "inference_speed": 27331.485050248055,
+    "inference_speed": 33690.54293049502,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 427.0544539101259
+    "throughput_gbps": 526.4147332889847
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.03864480048418045,
+    "memory_mb": 12.0,
+    "inference_speed": 25876.702362827768,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 303.2426058143879
   },
   {
     "operation": "Loss",
@@ -1001,11 +1997,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.07847615975886583,
+    "time_ms": 0.05694815995171666,
     "memory_mb": 20.0009765625,
-    "inference_speed": 12742.72343438703,
+    "inference_speed": 17559.829867160715,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 248.89346948593212
+    "throughput_gbps": 342.9821734517275
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.06732671976089477,
+    "memory_mb": 12.001953125,
+    "inference_speed": 14852.944025067856,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 174.08626753624338
   },
   {
     "operation": "LayerNorm",
@@ -1013,11 +2021,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.2670681592822075,
+    "time_ms": 0.24155839875340462,
     "memory_mb": 24.2509765625,
-    "inference_speed": 3744.362497901941,
+    "inference_speed": 4139.785679821682,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 88.67621794738665
+    "throughput_gbps": 98.04086474133665
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.15989152066409587,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 6254.240348997776,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 146.58972268802484
   },
   {
     "operation": "GELU",
@@ -1025,11 +2045,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.04001792013645172,
+    "time_ms": 0.031153599936515092,
     "memory_mb": 24.0,
-    "inference_speed": 24988.80493014716,
+    "inference_speed": 32099.019119389195,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 585.675115550324
+    "throughput_gbps": 752.3207606106844
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.049807999767363074,
+    "memory_mb": 24.0,
+    "inference_speed": 20077.096142601065,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 470.5569408422125
   },
   {
     "operation": "Swish",
@@ -1037,11 +2069,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.048728959895670415,
+    "time_ms": 0.037611200325191024,
     "memory_mb": 32.0,
-    "inference_speed": 20521.677502270068,
+    "inference_speed": 26587.824673338742,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 641.3024219459396
+    "throughput_gbps": 830.8695210418357
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.05596288032829762,
+    "memory_mb": 24.0,
+    "inference_speed": 17868.987338279483,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 418.8043907409254
   },
   {
     "operation": "Loss",
@@ -1049,11 +2093,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.08540512021631003,
+    "time_ms": 0.060811200346797704,
     "memory_mb": 40.0009765625,
-    "inference_speed": 11708.899858313502,
+    "inference_speed": 16444.33910689381,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 457.3900671924394
+    "throughput_gbps": 642.372678906896
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.07665920045226812,
+    "memory_mb": 24.001953125,
+    "inference_speed": 13044.74862900051,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 305.76117687566244
   },
   {
     "operation": "LayerNorm",
@@ -1061,11 +2117,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.2533011204004288,
+    "time_ms": 0.2462643204629421,
     "memory_mb": 48.2509765625,
-    "inference_speed": 3947.870417703479,
+    "inference_speed": 4060.677560274023,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 186.02402636366958
+    "throughput_gbps": 191.33950955923007
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.17068639919161796,
+    "memory_mb": 48.0009765625,
+    "inference_speed": 5858.697615838555,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 274.63203803187605
   },
   {
     "operation": "GELU",
@@ -1073,11 +2141,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.16274112157523632,
+    "time_ms": 0.15396000061184167,
     "memory_mb": 48.0,
-    "inference_speed": 6144.728451669747,
+    "inference_speed": 6495.193530955897,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 288.03414617201946
+    "throughput_gbps": 304.46219676355764
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.17159584075212478,
+    "memory_mb": 48.0,
+    "inference_speed": 5827.647078255989,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 273.1709567932495
   },
   {
     "operation": "Swish",
@@ -1085,11 +2165,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.3242780810594559,
+    "time_ms": 0.31646240144968035,
     "memory_mb": 64.0,
-    "inference_speed": 3083.773028176553,
+    "inference_speed": 3159.9330455027425,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 192.7358142610346
+    "throughput_gbps": 197.4958153439214
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.1660937604866922,
+    "memory_mb": 48.0,
+    "inference_speed": 6020.695762861737,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 282.2201138841439
   },
   {
     "operation": "Loss",
@@ -1097,11 +2189,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.23703999891877175,
+    "time_ms": 0.22607583954930305,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4218.697285527231,
+    "inference_speed": 4423.294421878805,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 329.58974869506477
+    "throughput_gbps": 345.5740950915657
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.24283776059746742,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4117.97571160121,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 193.03796589665015
   },
   {
     "operation": "LayerNorm",
@@ -1109,11 +2213,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.3230486407876015,
+    "time_ms": 0.3241548803448677,
     "memory_mb": 96.251953125,
-    "inference_speed": 3095.5090774007667,
+    "inference_speed": 3084.9450698878945,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 290.9656197421783
+    "throughput_gbps": 289.9726447852045
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.3304819191992283,
+    "memory_mb": 96.001953125,
+    "inference_speed": 3025.8841464702286,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 283.68241014757376
   },
   {
     "operation": "GELU",
@@ -1121,11 +2237,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.3163683208823204,
+    "time_ms": 0.3094671979546547,
     "memory_mb": 96.0,
-    "inference_speed": 3160.872735965148,
+    "inference_speed": 3231.3602430540213,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 296.33181899673264
+    "throughput_gbps": 302.9400227863145
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.32975968018174173,
+    "memory_mb": 96.0,
+    "inference_speed": 3032.5114321097903,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 284.29794676029286
   },
   {
     "operation": "Swish",
@@ -1133,11 +2261,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.7594640028476715,
+    "time_ms": 0.7558723211288452,
     "memory_mb": 128.0,
-    "inference_speed": 1316.7181015168849,
+    "inference_speed": 1322.974756512537,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 164.5897626896106
+    "throughput_gbps": 165.3718445640671
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.3215097604691982,
+    "memory_mb": 96.0,
+    "inference_speed": 3110.325479825685,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 291.5930137336579
   },
   {
     "operation": "Loss",
@@ -1145,11 +2285,23 @@
     "batch_size": 32,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.5776886433362961,
+    "time_ms": 0.5629625600576401,
     "memory_mb": 160.0009765625,
-    "inference_speed": 1731.0362797245768,
+    "inference_speed": 1776.3170607608663,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 270.47606955180584
+    "throughput_gbps": 277.551234771844
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 32,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.5642265582084656,
+    "memory_mb": 96.001953125,
+    "inference_speed": 1772.3376991951673,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 166.16003976543436
   },
   {
     "operation": "LayerNorm",
@@ -1157,11 +2309,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.12476575918495655,
+    "time_ms": 0.11741376116871834,
     "memory_mb": 6.1259765625,
-    "inference_speed": 8015.019557710298,
+    "inference_speed": 8516.889247445575,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 47.94904488135976
+    "throughput_gbps": 50.951429604745954
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.058793600425124166,
+    "memory_mb": 6.0009765625,
+    "inference_speed": 17008.653880170805,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 99.67630204548797
   },
   {
     "operation": "GELU",
@@ -1169,11 +2333,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.032967360075563196,
+    "time_ms": 0.011705600144341587,
     "memory_mb": 6.0,
-    "inference_speed": 30333.032360126475,
+    "inference_speed": 85429.19522869519,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 177.73261148511605
+    "throughput_gbps": 500.5616907931359
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.03469312008004635,
+    "memory_mb": 6.0,
+    "inference_speed": 28824.158729244624,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 168.89155505416772
   },
   {
     "operation": "Swish",
@@ -1181,11 +2357,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.04523456010967493,
+    "time_ms": 0.038805440235883,
     "memory_mb": 8.0,
-    "inference_speed": 22106.990707446195,
+    "inference_speed": 25769.58266473447,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 172.7108649019234
+    "throughput_gbps": 201.32486456823804
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.04586751990020275,
+    "memory_mb": 6.0,
+    "inference_speed": 21801.920011715734,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 127.74562506864687
   },
   {
     "operation": "Loss",
@@ -1193,11 +2381,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 32,
-    "time_ms": 0.07528992019593715,
+    "time_ms": 0.059529599994421006,
     "memory_mb": 10.0009765625,
-    "inference_speed": 13281.990436403235,
+    "inference_speed": 16798.365856543936,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 129.7196045486503
+    "throughput_gbps": 164.06256173788688
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 32,
+    "time_ms": 0.07928832042962312,
+    "memory_mb": 6.001953125,
+    "inference_speed": 12612.19804608684,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 73.92365378499004
   },
   {
     "operation": "LayerNorm",
@@ -1205,11 +2405,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.13278336003422736,
+    "time_ms": 0.12852928169071676,
     "memory_mb": 12.1259765625,
-    "inference_speed": 7531.064131395919,
+    "inference_speed": 7780.328239959554,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 89.18115932421027
+    "throughput_gbps": 92.13288856084611
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.09170528016984462,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 10904.49751800474,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 127.79747962833427
   },
   {
     "operation": "GELU",
@@ -1217,11 +2429,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.03250175992026925,
+    "time_ms": 0.02200640005990863,
     "memory_mb": 12.0,
-    "inference_speed": 30767.564662748144,
+    "inference_speed": 45441.32603595647,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 360.5573983915798
+    "throughput_gbps": 532.5155394838649
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.036985600125044586,
+    "memory_mb": 12.0,
+    "inference_speed": 27037.54965768031,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 316.8462850509411
   },
   {
     "operation": "Swish",
@@ -1229,11 +2453,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.042377599980682135,
+    "time_ms": 0.029681280087679625,
     "memory_mb": 16.0,
-    "inference_speed": 23597.372207389064,
+    "inference_speed": 33691.26927969286,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 368.7089407404542
+    "throughput_gbps": 526.426082495201
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.0368460800498724,
+    "memory_mb": 12.0,
+    "inference_speed": 27139.92909548225,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 318.04604408768256
   },
   {
     "operation": "Loss",
@@ -1241,11 +2477,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 64,
-    "time_ms": 0.06641888007521629,
+    "time_ms": 0.050460480079054834,
     "memory_mb": 20.0009765625,
-    "inference_speed": 15055.959975048458,
+    "inference_speed": 19817.488823596836,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 294.07607674500224
+    "throughput_gbps": 387.07922801598244
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 64,
+    "time_ms": 0.06900544036179782,
+    "memory_mb": 12.001953125,
+    "inference_speed": 14491.611020188651,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 169.85120719730236
   },
   {
     "operation": "LayerNorm",
@@ -1253,11 +2501,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.1309087987244129,
+    "time_ms": 0.11900416061282158,
     "memory_mb": 24.1259765625,
-    "inference_speed": 7638.905938669439,
+    "inference_speed": 8403.067546969945,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 179.97662660105559
+    "throughput_gbps": 197.98067450322387
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.09911072127521038,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 10089.725784793784,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 236.48757039344486
   },
   {
     "operation": "GELU",
@@ -1265,11 +2525,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.03232159985229373,
+    "time_ms": 0.023866560105234386,
     "memory_mb": 24.0,
-    "inference_speed": 30939.062564040567,
+    "inference_speed": 41899.62841694481,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 725.1342788447007
+    "throughput_gbps": 982.0225410221441
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.04353951968252659,
+    "memory_mb": 24.0,
+    "inference_speed": 22967.63968210065,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 538.304055049234
   },
   {
     "operation": "Swish",
@@ -1277,11 +2549,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.04640863973647356,
+    "time_ms": 0.03644832003861666,
     "memory_mb": 32.0,
-    "inference_speed": 21547.711927744313,
+    "inference_speed": 27436.106765428674,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 673.3659977420098
+    "throughput_gbps": 857.3783364196462
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.040547839850187305,
+    "memory_mb": 24.0,
+    "inference_speed": 24662.22624176071,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 578.0209275412667
   },
   {
     "operation": "Loss",
@@ -1289,11 +2573,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 128,
-    "time_ms": 0.0760985605046153,
+    "time_ms": 0.06293984029442072,
     "memory_mb": 40.0009765625,
-    "inference_speed": 13140.853038072264,
+    "inference_speed": 15888.187757105647,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 513.327103893736
+    "throughput_gbps": 620.6474864185376
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 128,
+    "time_ms": 0.0632336001098156,
+    "memory_mb": 24.001953125,
+    "inference_speed": 15814.37713910539,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 370.6796277283977
   },
   {
     "operation": "LayerNorm",
@@ -1301,11 +2597,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.1519625599682331,
+    "time_ms": 0.147335038036108,
     "memory_mb": 48.126953125,
-    "inference_speed": 6580.568267664379,
+    "inference_speed": 6787.251785654176,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 309.2799810095176
+    "throughput_gbps": 318.99389505444435
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.183341761007905,
+    "memory_mb": 48.001953125,
+    "inference_speed": 5454.294725340201,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 255.68046849190927
   },
   {
     "operation": "GELU",
@@ -1313,11 +2621,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.15733248099684716,
+    "time_ms": 0.14718144085258245,
     "memory_mb": 48.0,
-    "inference_speed": 6355.966636158489,
+    "inference_speed": 6794.33489852572,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 297.93593606992914
+    "throughput_gbps": 318.48444836839315
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.16298272050917148,
+    "memory_mb": 48.0,
+    "inference_speed": 6135.6197569651395,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 287.60717610774094
   },
   {
     "operation": "Swish",
@@ -1325,11 +2645,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.32629663944244386,
+    "time_ms": 0.31892256051301954,
     "memory_mb": 64.0,
-    "inference_speed": 3064.6959824923115,
+    "inference_speed": 3135.5574167954683,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 191.54349890576947
+    "throughput_gbps": 195.97233854971677
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.1750752004981041,
+    "memory_mb": 48.0,
+    "inference_speed": 5711.831242545566,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 267.7420894943234
   },
   {
     "operation": "Loss",
@@ -1337,11 +2669,23 @@
     "batch_size": 64,
     "sequence_length": 256,
     "tensor_dimension": 256,
-    "time_ms": 0.23742367953062057,
+    "time_ms": 0.23862399846315385,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4211.879800603587,
+    "inference_speed": 4190.69333529088,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 329.0571261837448
+    "throughput_gbps": 327.4019133762018
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 256,
+    "tensor_dimension": 256,
+    "time_ms": 0.24321056097745897,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4111.663555978069,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 192.74207156233408
   },
   {
     "operation": "LayerNorm",
@@ -1349,11 +2693,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.24002976074814797,
+    "time_ms": 0.23121631920337676,
     "memory_mb": 12.2509765625,
-    "inference_speed": 4166.150051073264,
+    "inference_speed": 4324.954239585506,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 49.84317053862963
+    "throughput_gbps": 51.743079124069375
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.0943836809694767,
+    "memory_mb": 12.0009765625,
+    "inference_speed": 10595.051917114739,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 124.17086888258268
   },
   {
     "operation": "GELU",
@@ -1361,11 +2717,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.026110720094293355,
+    "time_ms": 0.029025920182466507,
     "memory_mb": 12.0,
-    "inference_speed": 38298.445863948255,
+    "inference_speed": 34451.965474778066,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 448.80991246814364
+    "throughput_gbps": 403.7339704075555
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04464031985960901,
+    "memory_mb": 12.0,
+    "inference_speed": 22401.273179603933,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 262.51492007348355
   },
   {
     "operation": "Swish",
@@ -1373,11 +2741,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.03658111998811364,
+    "time_ms": 0.03476608017459512,
     "memory_mb": 16.0,
-    "inference_speed": 27336.505834838612,
+    "inference_speed": 28763.66835081792,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 427.1329036693533
+    "throughput_gbps": 449.43231798153005
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.04332256017252803,
+    "memory_mb": 12.0,
+    "inference_speed": 23082.66168983536,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 270.49994167775816
   },
   {
     "operation": "Loss",
@@ -1385,11 +2765,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 32,
-    "time_ms": 0.07749920014292001,
+    "time_ms": 0.05147039994597435,
     "memory_mb": 20.0009765625,
-    "inference_speed": 12903.358978619803,
+    "inference_speed": 19428.642502285686,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 252.03103565322127
+    "throughput_gbps": 379.48420247012433
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 32,
+    "time_ms": 0.06726272039115429,
+    "memory_mb": 12.001953125,
+    "inference_speed": 14867.076356482154,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 174.2519077502877
   },
   {
     "operation": "LayerNorm",
@@ -1397,11 +2789,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.25031168043613433,
+    "time_ms": 0.24372384071350098,
     "memory_mb": 24.2509765625,
-    "inference_speed": 3995.0193225407415,
+    "inference_speed": 4103.00443761473,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 94.61242183366227
+    "throughput_gbps": 97.16978950432451
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.16617632091045378,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 6017.704535286123,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 141.04568897602755
   },
   {
     "operation": "GELU",
@@ -1409,11 +2813,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.03733600050210953,
+    "time_ms": 0.0310060796700418,
     "memory_mb": 24.0,
-    "inference_speed": 26783.800796860894,
+    "inference_speed": 32251.73935698179,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 627.7453311764273
+    "throughput_gbps": 755.9001411792607
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.04773824024945497,
+    "memory_mb": 24.0,
+    "inference_speed": 20947.567291431882,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 490.95860839293476
   },
   {
     "operation": "Swish",
@@ -1421,11 +2837,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.04562879957258701,
+    "time_ms": 0.03933696031570435,
     "memory_mb": 32.0,
-    "inference_speed": 21915.983093291426,
+    "inference_speed": 25421.38467167667,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 684.8744716653571
+    "throughput_gbps": 794.418270989896
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.05045119997113943,
+    "memory_mb": 24.0,
+    "inference_speed": 19821.13409734653,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 464.5578304065593
   },
   {
     "operation": "Loss",
@@ -1433,11 +2861,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 64,
-    "time_ms": 0.06617440026253461,
+    "time_ms": 0.06151551980525255,
     "memory_mb": 40.0009765625,
-    "inference_speed": 15111.583875829418,
+    "inference_speed": 16256.060310728517,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 590.3106566790092
+    "throughput_gbps": 635.017858875037
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 64,
+    "time_ms": 0.07810752008110285,
+    "memory_mb": 24.001953125,
+    "inference_speed": 12802.864550835198,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 300.09155743639707
   },
   {
     "operation": "LayerNorm",
@@ -1445,11 +2885,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.2492953607439995,
+    "time_ms": 0.24154623925685884,
     "memory_mb": 48.2509765625,
-    "inference_speed": 4011.306094969398,
+    "inference_speed": 4139.994077641614,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 189.0131214583807
+    "throughput_gbps": 195.0769113370843
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.17959167882800103,
+    "memory_mb": 48.0009765625,
+    "inference_speed": 5568.186714027672,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 261.01406245670523
   },
   {
     "operation": "GELU",
@@ -1457,11 +2909,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.1612118408828974,
+    "time_ms": 0.15606080133467912,
     "memory_mb": 48.0,
-    "inference_speed": 6203.018305128031,
+    "inference_speed": 6407.758972449827,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 290.7664830528765
+    "throughput_gbps": 300.36370183358565
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.16926880031824112,
+    "memory_mb": 48.0,
+    "inference_speed": 5907.763262455377,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 276.9264029275958
   },
   {
     "operation": "Swish",
@@ -1469,11 +2933,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.3263718402385712,
+    "time_ms": 0.31994752019643785,
     "memory_mb": 64.0,
-    "inference_speed": 3063.9898321773726,
+    "inference_speed": 3125.5125821448187,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 191.4993645110858
+    "throughput_gbps": 195.34453638405117
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.1756230415403843,
+    "memory_mb": 48.0,
+    "inference_speed": 5694.013673997619,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 266.9068909686384
   },
   {
     "operation": "Loss",
@@ -1481,11 +2957,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 128,
-    "time_ms": 0.238611199259758,
+    "time_ms": 0.2359519985318184,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4190.918125814269,
+    "inference_speed": 4238.15015860164,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 327.41947535021853
+    "throughput_gbps": 331.1095229557085
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 128,
+    "time_ms": 0.24176224038004876,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4136.295223058845,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 193.89672793792198
   },
   {
     "operation": "LayerNorm",
@@ -1493,11 +2981,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.3288240012526512,
+    "time_ms": 0.32104320108890533,
     "memory_mb": 96.251953125,
-    "inference_speed": 3041.140537766439,
+    "inference_speed": 3114.845592768288,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 285.8551918824537
+    "throughput_gbps": 292.78317576830676
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.3331350392103195,
+    "memory_mb": 96.001953125,
+    "inference_speed": 3001.7857093941593,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 281.42313570757125
   },
   {
     "operation": "GELU",
@@ -1505,11 +3005,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.31715423926711084,
+    "time_ms": 0.3106448002159595,
     "memory_mb": 96.0,
-    "inference_speed": 3153.0399918690314,
+    "inference_speed": 3219.1106991161687,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 295.5974992377217
+    "throughput_gbps": 301.7916280421408
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.3248435190320015,
+    "memory_mb": 96.0,
+    "inference_speed": 3078.405267188004,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 288.6004937988754
   },
   {
     "operation": "Swish",
@@ -1517,11 +3029,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.7580825591087341,
+    "time_ms": 0.7515929567813874,
     "memory_mb": 128.0,
-    "inference_speed": 1319.1175393557194,
+    "inference_speed": 1330.5074122599392,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 164.88969241946492
+    "throughput_gbps": 166.3134265324924
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.31483583986759184,
+    "memory_mb": 96.0,
+    "inference_speed": 3176.2584603473433,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 297.77423065756346
   },
   {
     "operation": "Loss",
@@ -1529,11 +3053,23 @@
     "batch_size": 64,
     "sequence_length": 512,
     "tensor_dimension": 256,
-    "time_ms": 0.5752230381965637,
+    "time_ms": 0.5576495975255966,
     "memory_mb": 160.0009765625,
-    "inference_speed": 1738.4561006721754,
+    "inference_speed": 1793.2407813745424,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 271.6354236509608
+    "throughput_gbps": 280.19558225744856
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 512,
+    "tensor_dimension": 256,
+    "time_ms": 0.5580284768342971,
+    "memory_mb": 96.001953125,
+    "inference_speed": 1792.0232416686208,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 168.00559691951318
   },
   {
     "operation": "LayerNorm",
@@ -1541,11 +3077,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.45680064052343367,
+    "time_ms": 0.4519059184193611,
     "memory_mb": 24.5009765625,
-    "inference_speed": 2189.138786789202,
+    "inference_speed": 2212.8499743878474,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 52.37894346404485
+    "throughput_gbps": 52.94627476445838
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.15942719906568528,
+    "memory_mb": 24.0009765625,
+    "inference_speed": 6272.45542705666,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 147.01665595128205
   },
   {
     "operation": "GELU",
@@ -1553,11 +3101,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.030065280180424453,
+    "time_ms": 0.023056959845125676,
     "memory_mb": 24.0,
-    "inference_speed": 33260.957290233455,
+    "inference_speed": 43370.852303036976,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 779.5536864898465
+    "throughput_gbps": 1016.5043508524291
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.041179519668221476,
+    "memory_mb": 24.0,
+    "inference_speed": 24283.916083938857,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 569.154283217317
   },
   {
     "operation": "Swish",
@@ -1565,11 +3125,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.04238943997770548,
+    "time_ms": 0.036536319833248856,
     "memory_mb": 32.0,
-    "inference_speed": 23590.781112605997,
+    "inference_speed": 27370.025349131578,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 737.2119097689374
+    "throughput_gbps": 855.3132921603617
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.03958752052858472,
+    "memory_mb": 24.0,
+    "inference_speed": 25260.485795717774,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 592.0426358371353
   },
   {
     "operation": "Loss",
@@ -1577,11 +3149,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 32,
-    "time_ms": 0.07487040016800166,
+    "time_ms": 0.05950592014938593,
     "memory_mb": 40.0009765625,
-    "inference_speed": 13356.413185399042,
+    "inference_speed": 16805.05061495666,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 521.7476277228643
+    "throughput_gbps": 656.463316191902
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 32,
+    "time_ms": 0.06571327976882457,
+    "memory_mb": 24.001953125,
+    "inference_speed": 15217.624253696373,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 356.6920937608237
   },
   {
     "operation": "LayerNorm",
@@ -1589,11 +3173,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.476168637573719,
+    "time_ms": 0.4728937616944313,
     "memory_mb": 48.5009765625,
-    "inference_speed": 2100.0963127169057,
+    "inference_speed": 2114.6398641777128,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 99.46945511921417
+    "throughput_gbps": 100.15829930723773
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.28106015861034395,
+    "memory_mb": 48.0009765625,
+    "inference_speed": 3557.9571467700607,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 166.78263438719634
   },
   {
     "operation": "GELU",
@@ -1601,11 +3197,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.15857568100094796,
+    "time_ms": 0.14701824091374874,
     "memory_mb": 48.0,
-    "inference_speed": 6306.137193848924,
+    "inference_speed": 6801.877058144577,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 295.6001809616683
+    "throughput_gbps": 318.8379871005271
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.1641952008754015,
+    "memory_mb": 48.0,
+    "inference_speed": 6090.311986395046,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 285.48337436226774
   },
   {
     "operation": "Swish",
@@ -1613,11 +3221,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.31960736095905307,
+    "time_ms": 0.31536096066236496,
     "memory_mb": 64.0,
-    "inference_speed": 3128.8390761692012,
+    "inference_speed": 3170.9695388410187,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 195.55244226057505
+    "throughput_gbps": 198.18559617756364
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.17600352104753256,
+    "memory_mb": 48.0,
+    "inference_speed": 5681.704513911026,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 266.3298990895793
   },
   {
     "operation": "Loss",
@@ -1625,11 +3245,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 64,
-    "time_ms": 0.23463999897241591,
+    "time_ms": 0.23370592072606086,
     "memory_mb": 80.0009765625,
-    "inference_speed": 4261.847955929966,
+    "inference_speed": 4278.881754014924,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 332.96093597196455
+    "throughput_gbps": 334.29171769204765
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 64,
+    "time_ms": 0.24971360072493554,
+    "memory_mb": 48.001953125,
+    "inference_speed": 4004.5876439926865,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 187.72268395692493
   },
   {
     "operation": "LayerNorm",
@@ -1637,11 +3269,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.5126752039790153,
+    "time_ms": 0.5044643205404281,
     "memory_mb": 96.5009765625,
-    "inference_speed": 1950.5526934767292,
+    "inference_speed": 1982.30074810585,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 183.81859351281165
+    "throughput_gbps": 186.81050589139537
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.33637439876794817,
+    "memory_mb": 96.0009765625,
+    "inference_speed": 2972.877851770942,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 278.7101337607789
   },
   {
     "operation": "GELU",
@@ -1649,11 +3293,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.31522592037916186,
+    "time_ms": 0.3117414404451847,
     "memory_mb": 96.0,
-    "inference_speed": 3172.327957032132,
+    "inference_speed": 3207.786550841436,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 297.40574597176237
+    "throughput_gbps": 300.72998914138464
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.3222268798947334,
+    "memory_mb": 96.0,
+    "inference_speed": 3103.403416644461,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 290.9440703104182
   },
   {
     "operation": "Swish",
@@ -1661,11 +3317,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.7580163216590882,
+    "time_ms": 0.7544329583644866,
     "memory_mb": 128.0,
-    "inference_speed": 1319.23280729797,
+    "inference_speed": 1325.4988251943169,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 164.90410091224626
+    "throughput_gbps": 165.6873531492896
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.32364543944597246,
+    "memory_mb": 96.0,
+    "inference_speed": 3089.800992443567,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 289.6688430415844
   },
   {
     "operation": "Loss",
@@ -1673,11 +3341,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 128,
-    "time_ms": 0.5714278370141983,
+    "time_ms": 0.5587216001749039,
     "memory_mb": 160.0009765625,
-    "inference_speed": 1750.0022491469083,
+    "inference_speed": 1789.800143196463,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 273.4395203614031
+    "throughput_gbps": 279.65797926087544
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 128,
+    "time_ms": 0.5683974379301071,
+    "memory_mb": 96.001953125,
+    "inference_speed": 1759.3323496348428,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 164.94076343841823
   },
   {
     "operation": "LayerNorm",
@@ -1685,11 +3365,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.6364569592475892,
+    "time_ms": 0.6227244800329208,
     "memory_mb": 192.501953125,
-    "inference_speed": 1571.198154832318,
+    "inference_speed": 1605.8466176681127,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 295.36983745275137
+    "throughput_gbps": 301.8834085159051
+  },
+  {
+    "operation": "LayerNorm",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.6276774394512177,
+    "memory_mb": 192.001953125,
+    "inference_speed": 1593.1749926750692,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 298.7233498667196
   },
   {
     "operation": "GELU",
@@ -1697,11 +3389,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 0.6187353622913361,
+    "time_ms": 0.6144809600710869,
     "memory_mb": 192.0,
-    "inference_speed": 1616.199850444531,
+    "inference_speed": 1627.3897239782889,
     "gpu_efficiency": 100.0,
-    "throughput_gbps": 303.03747195834956
+    "throughput_gbps": 305.13557324592915
+  },
+  {
+    "operation": "GELU",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.6210345631837845,
+    "memory_mb": 192.0,
+    "inference_speed": 1610.216337837009,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 301.9155633444392
   },
   {
     "operation": "Swish",
@@ -1709,11 +3413,23 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 1.5023884797096252,
+    "time_ms": 1.493436473608017,
     "memory_mb": 256.0,
-    "inference_speed": 665.6068077633792,
-    "gpu_efficiency": 66.5606807763379,
-    "throughput_gbps": 166.4017019408448
+    "inference_speed": 669.5966100145419,
+    "gpu_efficiency": 66.95966100145418,
+    "throughput_gbps": 167.39915250363546
+  },
+  {
+    "operation": "Swish",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 0.6142553609609603,
+    "memory_mb": 192.0,
+    "inference_speed": 1627.9874194920637,
+    "gpu_efficiency": 100.0,
+    "throughput_gbps": 305.247641154762
   },
   {
     "operation": "Loss",
@@ -1721,10 +3437,22 @@
     "batch_size": 64,
     "sequence_length": 1024,
     "tensor_dimension": 256,
-    "time_ms": 1.1831808042526246,
+    "time_ms": 1.1621408069133758,
     "memory_mb": 320.0009765625,
-    "inference_speed": 845.1793643082862,
-    "gpu_efficiency": 84.51793643082861,
-    "throughput_gbps": 264.1193573721919
+    "inference_speed": 860.4809280004384,
+    "gpu_efficiency": 86.04809280004385,
+    "throughput_gbps": 268.9011106186978
+  },
+  {
+    "operation": "Loss",
+    "implementation": "Triton",
+    "batch_size": 64,
+    "sequence_length": 1024,
+    "tensor_dimension": 256,
+    "time_ms": 1.1436630499362945,
+    "memory_mb": 192.001953125,
+    "inference_speed": 874.3834121909447,
+    "gpu_efficiency": 87.43834121909447,
+    "throughput_gbps": 163.94855753980792
   }
 ]

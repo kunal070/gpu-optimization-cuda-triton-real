@@ -1,2 +1,0 @@
-Implementation,Avg Time (ms),Avg Memory (MB),Avg Inference Speed,Avg GPU Efficiency
-PyTorch,0.1892213067205416,30.79635959201389,8309.422741767134,100.0

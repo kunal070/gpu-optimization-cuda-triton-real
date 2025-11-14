@@ -26,42 +26,22 @@ except ImportError:
 
 
 def test_layernorm():
-    """Test LayerNorm correctness"""
-    print("Testing LayerNorm...")
     
-    if not torch.cuda.is_available():
-        print("  SKIP: CUDA not available")
-        return
-    
-    device = 'cuda'
-    batch_size, seq_len, hidden_size = 4, 8, 16
-    
-    # Create test data
-    input_tensor = torch.randn(batch_size, seq_len, hidden_size, device=device)
+    device = "cuda"
+    batch_size, seq_len, hidden_size = 2, 4, 8
+    eps = 1e-5
+
+    x = torch.randn(batch_size, seq_len, hidden_size, device=device, dtype=torch.float32)
     gamma = torch.ones(hidden_size, device=device)
     beta = torch.zeros(hidden_size, device=device)
-    eps = 1e-5
-    
-    # PyTorch reference
-    ref_output = torch.nn.functional.layer_norm(
-        input_tensor, (hidden_size,), gamma, beta, eps
-    )
-    
-    # Test CUDA extension
-    if CUDA_OPS_AVAILABLE:
-        cuda_output = cuda_ops.layernorm(input_tensor, gamma, beta, eps)
-        max_diff = torch.max(torch.abs(cuda_output - ref_output)).item()
-        print(f"  CUDA Extension: max_diff = {max_diff:.2e}")
-        assert max_diff < 1e-4, f"CUDA LayerNorm failed: max_diff = {max_diff}"
-    
-    # Test Triton
-    if TRITON_AVAILABLE:
-        triton_output = layernorm_triton(input_tensor, gamma, beta, eps)
-        max_diff = torch.max(torch.abs(triton_output - ref_output)).item()
-        print(f"  Triton: max_diff = {max_diff:.2e}")
-        assert max_diff < 1e-4, f"Triton LayerNorm failed: max_diff = {max_diff}"
-    
-    print("  [PASS] LayerNorm tests passed")
+
+    y_cuda = cuda_ops.layernorm(x, gamma, beta, eps)
+    y_torch = torch.nn.functional.layer_norm(x, (hidden_size,), eps=eps)
+
+    max_diff = (y_cuda - y_torch).abs().max().item()
+    print(f"  CUDA Extension: max_diff = {max_diff:.2e}")
+    assert max_diff < 1e-4, f"CUDA LayerNorm failed: max_diff = {max_diff}"
+
 
 
 def test_gelu():

@@ -1,0 +1,56 @@
+================================================================================
+ BENCHMARK SUMMARY REPORT
+================================================================================
+
+
+LayerNorm
+--------------------------------------------------------------------------------
+
+PyTorch:
+   Avg Time:   0.180 ms
+   Avg Memory: 30.80 MB
+   Avg Speed:  9465.27 ops/s
+
+Triton:
+   Avg Time:   0.137 ms
+   Avg Memory: 30.63 MB
+   Avg Speed:  11406.60 ops/s
+
+GELU
+--------------------------------------------------------------------------------
+
+PyTorch:
+   Avg Time:   0.086 ms
+   Avg Memory: 30.62 MB
+   Avg Speed:  33276.19 ops/s
+
+Triton:
+   Avg Time:   0.104 ms
+   Avg Memory: 30.62 MB
+   Avg Speed:  18060.61 ops/s
+
+Swish
+--------------------------------------------------------------------------------
+
+PyTorch:
+   Avg Time:   0.182 ms
+   Avg Memory: 40.83 MB
+   Avg Speed:  22238.18 ops/s
+
+Triton:
+   Avg Time:   0.104 ms
+   Avg Memory: 30.62 MB
+   Avg Speed:  18227.10 ops/s
+
+Loss
+--------------------------------------------------------------------------------
+
+PyTorch:
+   Avg Time:   0.157 ms
+   Avg Memory: 51.04 MB
+   Avg Speed:  14317.54 ops/s
+
+Triton:
+   Avg Time:   0.170 ms
+   Avg Memory: 30.63 MB
+   Avg Speed:  11261.78 ops/s

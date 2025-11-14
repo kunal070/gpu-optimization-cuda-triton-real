@@ -215,7 +215,7 @@ def benchmark_fused_layernorm_gelu(
         
         mean_time, std_time = benchmark_function(cuda_fused, device=device)
         results['CUDA Fused'] = (mean_time, std_time)
-        speedup = results['PyTorch Separate'][0] / mean_time
+        speedup = results['PyTorch Separate'][0] / mean_time    
         print(f"CUDA Fused:         {mean_time:.3f} ± {std_time:.3f} ms ({speedup:.2f}x speedup)")
     
     # Triton: Fused
